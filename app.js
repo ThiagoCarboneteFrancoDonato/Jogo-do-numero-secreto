@@ -29,9 +29,9 @@ function verificarChute() {
         
     }else {
         if(chute > numeroSecreto){
-            exibirTextoNaTela('p', 'O número informado e maior que o número secreto!');
+            exibirTextoNaTela('p', 'O número informado é maior que o número secreto!');
         }else{
-            exibirTextoNaTela('p', 'O número informado e menor que o número secreto!');
+            exibirTextoNaTela('p', 'O número informado é menor que o número secreto!');
         };
         tentativa++
         limparCampo();
